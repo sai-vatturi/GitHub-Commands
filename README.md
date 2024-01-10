@@ -52,3 +52,42 @@ git log
 ```
 
 Check detailed history of all commits.
+
+git log
+```
+
+to remove file from staging area
+
+```java
+git rm --cached <file-name>
+```
+
+to remove all files from staging area
+
+```java
+git rm --cached -r .
+```
+
+# .gitignore
+
+Some files like .ENV or unused files for the project are not required to track by git. To choose which files to not track, we use .gitignore
+
+1. Create a new file called .gitignore
+
+```java
+touch .gitignore
+```
+
+1. Add file names to ignore line by line
+
+```java
+.DS_Store
+secrets.txt
+
+*.txt
+#This is a comment
+```
+
+'*.txt' will ignore all files with txt extension
+
+'#' is used to write a comment
