@@ -91,3 +91,33 @@ secrets.txt
 '*.txt' will ignore all files with txt extension
 
 '#' is used to write a comment
+
+## Branches
+
+To create a new branch
+
+```java
+git branch <branch-name>
+```
+
+To check the list of branches and current branch
+
+```java
+git branch
+```
+
+(*) represents current branch
+
+To change current working branch
+
+```java
+git checkout <branch-name>
+```
+
+To merge changes from one branch to another branch
+
+```java
+git merge <source-branch>
+```
+
+This command merges the source branch with the current branch
