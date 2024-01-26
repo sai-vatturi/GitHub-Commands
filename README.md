@@ -121,3 +121,13 @@ git merge <source-branch>
 ```
 
 This command merges the source branch with the current branch
+
+## Forking
+
+Forking in Git usually refers to create a copy of other’s repository, so that they can work on changes independently on permission less repo’s and later they can create a pull request to merge their changes back into the original repository
+
+1. Fork a repository on GitHub.
+2. Clone the forked repository to your local machine.
+3. Make changes and commit them.
+4. Push changes to your fork.
+5. Create a pull request to propose changes to the original repository.
