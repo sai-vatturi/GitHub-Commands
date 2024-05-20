@@ -68,6 +68,12 @@ to remove all files from staging area
 git rm --cached -r .
 ```
 
+## Cloning a Repository
+
+```jsx
+git clone <repository-url>
+```
+
 # .gitignore
 
 Some files like .ENV or unused files for the project are not required to track by git. To choose which files to not track, we use .gitignore
